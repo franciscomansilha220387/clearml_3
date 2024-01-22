@@ -52,7 +52,7 @@ wandb_callback = WandbCallback(model_save_freq=1000,
                                 verbose=2,
                                 )
 
-timesteps = 100000
+timesteps = 40000
 for i in range(10):
     # add the reset_num_timesteps=False argument to the learn function to prevent the model from resetting the timestep counter
     # add the tb_log_name argument to the learn function to log the tensorboard data to the correct folder
